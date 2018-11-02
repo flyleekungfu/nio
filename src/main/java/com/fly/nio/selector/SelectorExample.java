@@ -62,7 +62,7 @@ public class SelectorExample {
 
                     System.out.println("从客户端读取的消息: " + output);
 
-                    if (output.equals("再见！")) {
+                    if ("再见！".equals(output)) {
 
                         client.close();
                         System.out.println("客户端消息传输完成，关闭");
